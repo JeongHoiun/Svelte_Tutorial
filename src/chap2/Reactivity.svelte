@@ -1,6 +1,10 @@
 <script>
 	let count = 0;
 	$: doubled = count * 2;
+	$: if (count >= 10) {
+		alert('count is dangerously high!');
+		count = 9;
+	}
 
 	function handleClick() {
 		count += 1;
