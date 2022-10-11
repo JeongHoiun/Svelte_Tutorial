@@ -2,6 +2,11 @@
 	import ReactivityButton from './chap2/Reactivity.svelte';
 	import ArraysAndObjects from './chap2/ArraysAndObjects.svelte';
 	import ChapThree from './chap3/index.svelte'
+	import IfBlocks from './chap4/IfBlocks.svelte'
+	import IfElseBlocks from './chap4/IfElseBlocks.svelte'
+	import EachBlocks from './chap4/EachBlocks.svelte'
+	import KeyingEach from './chap4/KeyingEach.svelte'
+	import AwaitBlocks from './chap4/AwaitBlocks.svelte'
 	let name: string;
 	name = 'me'
 </script>
@@ -16,6 +21,14 @@
 	<h3> Chap 3. Props </h3>
 	<div>
 		<ChapThree />
+	</div>
+	<h3> Chap 4. Logics </h3>
+	<div>
+		<IfBlocks />
+		<IfElseBlocks/>
+		<EachBlocks/>
+		<KeyingEach/>
+		<AwaitBlocks/>
 	</div>
 </main>
 
