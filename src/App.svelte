@@ -1,7 +1,7 @@
 <script lang="ts">
 	import ReactivityButton from './chap2/Reactivity.svelte';
 	import ArraysAndObjects from './chap2/ArraysAndObjects.svelte';
-
+	import ChapThree from './chap3/index.svelte'
 	let name: string;
 	name = 'me'
 </script>
@@ -12,6 +12,10 @@
 	<div class="chap2-root">
 		<ReactivityButton />
 		<ArraysAndObjects />
+	</div>
+	<h3> Chap 3. Props </h3>
+	<div>
+		<ChapThree />
 	</div>
 </main>
 
