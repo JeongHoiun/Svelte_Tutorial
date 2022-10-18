@@ -9,6 +9,10 @@
 	import AwaitBlocks from './chap4/AwaitBlocks.svelte';
 	import EventModifier from './chap5/EventModifier.svelte';
 	import ComponentEvent from './chap5/ComponentEvent.svelte'
+	import TextBinding from './chap6/TextBinding.svelte'
+	import GroupBinding from './chap6/GroupBinding.svelte'
+	import MediaBinding from './chap6/MediaBinding.svelte'
+	import ComponentBinding from './chap6/ComponentBinding.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -36,6 +40,13 @@
 	<div>
 		<EventModifier />
 		<ComponentEvent />
+	</div>
+	<h3> Chap 6. Binding </h3>
+	<div>
+		<TextBinding />
+		<GroupBinding/>
+		<MediaBinding/>
+		<ComponentBinding/>
 	</div>
 </main>
 
