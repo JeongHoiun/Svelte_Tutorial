@@ -13,6 +13,9 @@
 	import GroupBinding from './chap6/GroupBinding.svelte'
 	import MediaBinding from './chap6/MediaBinding.svelte'
 	import ComponentBinding from './chap6/ComponentBinding.svelte'
+	import LifecycleOnMount from './chap7/LifecycleOnMount.svelte'
+	import Eliza from './chap7/Eliza.svelte'
+	import Tick from './chap7/Tick.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -47,6 +50,12 @@
 		<GroupBinding/>
 		<MediaBinding/>
 		<ComponentBinding/>
+	</div>
+	<h3> Chap 7. Lifecycle </h3>
+	<div>
+		<LifecycleOnMount />
+		<Eliza/>
+		<Tick/>
 	</div>
 </main>
 
