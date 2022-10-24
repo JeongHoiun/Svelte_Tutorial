@@ -16,6 +16,7 @@
 	import LifecycleOnMount from './chap7/LifecycleOnMount.svelte'
 	import Eliza from './chap7/Eliza.svelte'
 	import Tick from './chap7/Tick.svelte'
+	import Writablestore from './chap8/App.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -56,6 +57,10 @@
 		<LifecycleOnMount />
 		<Eliza/>
 		<Tick/>
+	</div>
+	<h4> Chap 8. Stores </h4>
+	<div>
+		<Writablestore />
 	</div>
 </main>
 
