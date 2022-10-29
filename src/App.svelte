@@ -17,6 +17,8 @@
 	import Eliza from './chap7/Eliza.svelte'
 	import Tick from './chap7/Tick.svelte'
 	import Writablestore from './chap8/App.svelte'
+	import Tweened from './chap9/Tweened.svelte'
+	import Spring from './chap9/Spring.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -61,6 +63,11 @@
 	<h4> Chap 8. Stores </h4>
 	<div>
 		<Writablestore />
+	</div>
+	<h3> Chap 9. Motions</h3>
+	<div>
+		<Tweened/>
+		<Spring/>
 	</div>
 </main>
 
