@@ -19,6 +19,11 @@
 	import Writablestore from './chap8/App.svelte'
 	import Tweened from './chap9/Tweened.svelte'
 	import Spring from './chap9/Spring.svelte'
+	import TransitionDirective from './chap10/TransitionDirective.svelte'
+	import TransitionParams from './chap10/TransitionParams.svelte'
+	import InAndOut from './chap10/InAndOut.svelte'
+	import CustomTransition from './chap10/CustomTransition.svelte'
+	import KeyBlock from './chap10/KeyBlock.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -60,7 +65,7 @@
 		<Eliza/>
 		<Tick/>
 	</div>
-	<h4> Chap 8. Stores </h4>
+	<h3> Chap 8. Stores </h3>
 	<div>
 		<Writablestore />
 	</div>
@@ -68,6 +73,14 @@
 	<div>
 		<Tweened/>
 		<Spring/>
+	</div>
+	<h3> Chap 10. Transition </h3>
+	<div>
+		<TransitionDirective/>
+		<TransitionParams/>
+		<InAndOut/>
+		<CustomTransition/>
+		<KeyBlock/>
 	</div>
 </main>
 
