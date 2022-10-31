@@ -25,6 +25,7 @@
 	import CustomTransition from './chap10/CustomTransition.svelte'
 	import KeyBlock from './chap10/KeyBlock.svelte'
 	import TheAnimateDirective from './chap11/TheAnimateDirective.svelte'
+	import Actions from './chap12/App.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -86,6 +87,10 @@
 	<h3> Chap 11. Animations </h3>
 	<div>
 		<TheAnimateDirective />
+	</div>
+	<h3> Chap 12. Actions </h3>
+	<div>
+		<Actions />
 	</div>
 </main>
 <style>
