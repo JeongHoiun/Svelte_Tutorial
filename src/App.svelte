@@ -24,6 +24,7 @@
 	import InAndOut from './chap10/InAndOut.svelte'
 	import CustomTransition from './chap10/CustomTransition.svelte'
 	import KeyBlock from './chap10/KeyBlock.svelte'
+	import TheAnimateDirective from './chap11/TheAnimateDirective.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -82,8 +83,11 @@
 		<CustomTransition/>
 		<KeyBlock/>
 	</div>
+	<h3> Chap 11. Animations </h3>
+	<div>
+		<TheAnimateDirective />
+	</div>
 </main>
-
 <style>
 	main {
 		text-align: center;
