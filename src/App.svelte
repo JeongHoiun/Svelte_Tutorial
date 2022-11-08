@@ -26,6 +26,7 @@
 	import KeyBlock from './chap10/KeyBlock.svelte'
 	import TheAnimateDirective from './chap11/TheAnimateDirective.svelte'
 	import Actions from './chap12/App.svelte'
+	import AdvancedStyling from './chap13/App.svelte'
 	let name: string;
 	name = 'me';
 </script>
@@ -92,6 +93,10 @@
 	<div>
 		<Actions />
 	</div>
+	<h3> Chap 13. Advanced Styling</h3>
+	<doiv>
+		<AdvancedStyling />
+	</doiv>
 </main>
 <style>
 	main {
